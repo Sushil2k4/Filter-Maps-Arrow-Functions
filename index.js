@@ -39,3 +39,17 @@ function filterLogic(n) {
 
 const ans = arr.filter(filterLogic);
 console.log(ans);
+
+//another example for filters
+
+const arr = ["sushil", "yuvraj", "patrick", "nobita", "jethalal"];
+
+const ans = arr.filter(function (n) {
+    if ( n.startsWith("s") || n.startsWith("j") ) {
+        return true;
+    } else {
+        return false;
+    }
+});
+
+console.log(ans);
