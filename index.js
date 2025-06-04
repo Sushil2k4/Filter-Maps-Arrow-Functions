@@ -53,3 +53,17 @@ const ans = arr.filter(function (n) {
 });
 
 console.log(ans);
+
+//arrow functions -  instead of function(n) just use (n) =>
+
+const arr = ["sushil", "yuvraj", "patrick", "nobita", "jethalal"];
+
+const ans = arr.filter( (n) => {
+    if ( n.startsWith("s") || n.startsWith("j") ) {
+        return true;
+    } else {
+        return false;
+    }
+});
+
+console.log(ans);
