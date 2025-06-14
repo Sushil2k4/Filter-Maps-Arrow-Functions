@@ -6,6 +6,10 @@
 // It returns a **new array** with the same length.
 // It does NOT modify the original array.
 
+
+
+
+//......
 const input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const ans = input.map(function (element) {
     return element * 2; // double each number
